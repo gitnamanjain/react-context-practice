@@ -5,7 +5,7 @@ function Parent() {
   const state = useContext(AppContext);
   return (
     <div className={`${state.dark ? "dark" : "light"}`}>
-      <div>Parent</div>
+      <div><h1>React Context API Practice</h1></div>
       <Child></Child>
     </div>
   );
